@@ -82,4 +82,11 @@ Do not delete any of the above code. */
     background-color: yellow;
     color:#2c3e50
   }
-  
+/* styling for mibile */
+  media screen and (max-width: 786px) {
+    .light-box { 
+      background-color: green;
+      color:white
+    }
+  }
+
