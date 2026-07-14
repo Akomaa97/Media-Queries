@@ -40,7 +40,7 @@ body {
 
 /* Hidden by default on desktop screens */
 .hamburger-icon {
-  display: none;
+  display: ;
   color: white;
   font-size: 2rem;
   cursor: pointer;
@@ -107,17 +107,41 @@ Do not delete any of the above code. */
 
 /* styling for mobile */
   @media screen and (max-width: 786px) {
-    
+    /* styling for c1 */
     .light-box { 
       background-color: green;
       color:white;
     }
 
+    /* styling for c2 */
     .layout-wrapper{
       flex-direction:column ;
     }
 
+    .hamburger-icon {
+      display: block;
+    }
 
+    .nav-links {
+      display: none;
+      background-color: #34495e;
+      position: absolute;
+      top:100%;
+      right:0;
+      padding: 10px 0px;
+      width: 150px;
+    
+    }
+
+    .nav-links li{
+      margin: 10px 20px;
+    }
+
+
+    .menu-container:hover .nav-links{
+      display: flex;
+      flex-direction: column;
+    }
   
   }
 
