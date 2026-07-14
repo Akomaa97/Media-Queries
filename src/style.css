@@ -76,12 +76,35 @@ Do not delete any of the above code. */
   border-radius: 8px;
 
 }
+/* styling for challenge 2 */
+.layout-wrapper{
+  display: flex;
+  gap: 20px;
+}
+
+.main-content{
+  color: white;
+  background-color: #3ec5e7;
+  padding: 20px;
+  border-radius: 8px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.sidebar{
+  color: white;
+  background-color: cadetblue;
+  padding: 20px;
+  border-radius: 8px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
 
 @media screen and (max-width: 991px) {
   .light-box { 
     background-color: yellow;
-    color:#2c3e50
+    color:#2c3e50;
   }
+ }
+
 /* styling for mibile */
   @media screen and (max-width: 786px) {
     .light-box { 
